@@ -1,2 +1,2 @@
-# Hananbusa-Automation
+# Hanabusa-Automation
 Automates the process of uploading properties to Hanabusa's website
