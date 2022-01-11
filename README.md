@@ -1,6 +1,7 @@
 # Hanabusa-Automation
 Automates the process of uploading a property from https://www.homes.co.jp/ to the Hanabusa Website:
 Requires properties to be new built, is within 20 minutes of walking distance to a station, has land rights "Ownership", and transaction mode "mediation".
+Obviously requires you to be a moderator/editor of the Hanabusa website.
 Steps to use the script:
 1. Download the .py file
 2. Download the appropriate chromedriver for your chrome web browser from https://chromedriver.chromium.org/downloads
