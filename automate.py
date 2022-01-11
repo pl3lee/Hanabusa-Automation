@@ -657,21 +657,11 @@ def split_range(num_range):
 
 # Prompts the user to select a person. Returns two strings, username and password.
 def select_person():
-    while True:
-        print("Are you Billy or Jamie? Enter b or j.")
-        person = input()
-        if person.lower() == "b":
-            username = 'billylee'
-            password = ')RWNAHSs1iCmRvzYGpXFK83b'
-            return username, password
-        elif person.lower() == "j":
-            username = 'mjamie'
-            password = 'Jam2002^'
-            return username, password
-        elif person.lower() == "q":
-            quit()
-        else:
-            print("Unknown person! Try again.")
+    print("Enter username to the Hanabusa Website.")
+    username = input()
+    print("Enter password to the Hanabusa Website.")
+    password = input()
+    return username, password
 
 # Checks whether answer is a predetermined command, and modifies list. For example, if answer is "r", the function empties list. Returns True if answer is "d", and returns False otherwise.
 # answer: string
